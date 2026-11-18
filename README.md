@@ -1,4 +1,5 @@
 
+
 <div align="center">
 
 # ୨ৎ discord.py-bot-para-bios-fofas
@@ -43,10 +44,6 @@ Um bot desenvolvido em Python usando `discord.py`, que gera bios aleatórias com
 
 <p align="left">
   <img src="https://media.giphy.com/media/8UtN9f7QJk9wI/giphy.gif" width="100">
-</p>
-
-<p align="right">
-  <img src="https://media.giphy.com/media/NMGc9JGgT89b2/giphy.gif" width="100">
 </p>
 
 ## 🎀 Instalação
