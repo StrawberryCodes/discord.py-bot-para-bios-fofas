@@ -5,7 +5,7 @@
 
 *Um gerador de bios fofinhas para Discord ♡*
 
-<img src="https://media.giphy.com/media/4auwKGWAI8EaEMs8I5/giphy.gif" width="100">
+<img src="https://media.giphy.com/media/FP3NM22yPNQUcZzC73/giphy.gif" width="105">
 
 </div>
 
@@ -16,7 +16,7 @@
 Um bot desenvolvido em Python usando `discord.py`, que gera bios aleatórias com kaomojis, símbolos decorativos e frases em português.
 
 <p align="right">
-  <img src="https://media.giphy.com/media/8UtN9f7QJk9wI/giphy.gif" width="105">
+  <img src="https://media.giphy.com/media/TIXDy7zCGIFtfXwxoL/giphy.gif" width="95">
 </p>
 
 ## ♡ Comandos
@@ -25,9 +25,9 @@ Um bot desenvolvido em Python usando `discord.py`, que gera bios aleatórias com
 |:---|:---|
 | `!bio` | Gerar uma bio aleatória |
 
-<div align="center">
-  <img src="https://media.giphy.com/media/TIXDy7zCGIFtfXwxoL/giphy.gif" width="115">
-</div>
+<p align="left">
+  <img src="https://media.giphy.com/media/Y0sohPSNp9GlpBa04p/giphy.gif" width="100">
+</p>
 
 ## ୨ৎ Recursos
 
@@ -38,7 +38,15 @@ Um bot desenvolvido em Python usando `discord.py`, que gera bios aleatórias com
 - Combinações diferentes a cada uso.
 
 <p align="right">
-  <img src="https://media.giphy.com/media/Y0sohPSNp9GlpBa04p/giphy.gif" width="110">
+  <img src="https://media.giphy.com/media/4auwKGWAI8EaEMs8I5/giphy.gif" width="100">
+</p>
+
+<p align="left">
+  <img src="https://media.giphy.com/media/8UtN9f7QJk9wI/giphy.gif" width="100">
+</p>
+
+<p align="right">
+  <img src="https://media.giphy.com/media/NMGc9JGgT89b2/giphy.gif" width="100">
 </p>
 
 ## 🎀 Instalação
