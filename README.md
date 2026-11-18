@@ -1,7 +1,20 @@
-# discord.py-bot-para-bios-fofas
-Comando: !bio  Gera uma bio estética aleatória usando kaomojis, símbolos decorativos e frases em português.
 
-# ================= BIO =================
+import discord
+from discord.ext import commands
+import random
+
+
+# ♡ decoração dos stickers
+
+STICKERS = [
+    "https://media.giphy.com/media/TIXDy7zCGIFtfXwxoL/giphy.gif",  # coelhinho
+    "https://media.giphy.com/media/8UtN9f7QJk9wI/giphy.gif",       # pudim
+    "https://media.giphy.com/media/QWePdZrk7TMrEXTqMF/giphy.gif", # Hello Kitty
+    "https://media.giphy.com/media/NMGc9JGgT89b2/giphy.gif"       # cherry blossom
+]
+
+
+# ♡ kaomojis
 
 KAOMOJIS = [
     "૮ ˶ᵔ ᵕ ᵔ˶ ა",
@@ -34,6 +47,9 @@ KAOMOJIS = [
     "૮₍ ´ ꒳ `₎ა"
 ]
 
+
+# ♡ símbolos decorativos
+
 SIMBOLOS = [
     "♡",
     "୨ৎ",
@@ -50,6 +66,9 @@ SIMBOLOS = [
     "₊˚⊹⋆",
     ".𖥔 ݁ ˖"
 ]
+
+
+# ♡ frases para as bios
 
 FRASES = [
     "eu, meu gloss e meus problemas",
@@ -84,30 +103,27 @@ FRASES = [
     "bonita, confusa e ocupada"
 ]
 
+
+# ♡ comando !bio
+
 @bot.command()
 async def bio(ctx):
-    simbolo1 = random.choice(SIMBOLOS)
-    simbolo2 = random.choice(SIMBOLOS)
 
-    while simbolo2 == simbolo1:
-        simbolo2 = random.choice(SIMBOLOS)
-
+    simbolo1, simbolo2 = random.sample(SIMBOLOS, 2)
     kaomojis = random.sample(KAOMOJIS, 3)
 
-    texto = f"""
-{simbolo1}
+    frase = random.choice(FRASES)
+    sticker = random.choice(STICKERS)
 
-{random.choice(FRASES)}
-
-{kaomojis[0]}
-
-{random.choice(SIMBOLOS)}
-
-{kaomojis[1]}
-
-{kaomojis[2]}
-
-{simbolo2}
-"""
+    texto = (
+        f"{simbolo1}\n\n"
+        f"{frase}\n\n"
+        f"{kaomojis[0]}\n\n"
+        f"{random.choice(SIMBOLOS)}\n\n"
+        f"{kaomojis[1]}\n"
+        f"{kaomojis[2]}\n\n"
+        f"{simbolo2}\n\n"
+        f"{sticker}"
+    )
 
     await ctx.send(texto)
