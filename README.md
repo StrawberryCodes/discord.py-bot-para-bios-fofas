@@ -2,7 +2,7 @@
 
 <div align="center">
 
-# ୨ৎ discord.py-bot-para-bios-fofas
+# ୨ৎ discord.py.bot gerador de bio
 
 *Um gerador de bios fofinhas para Discord ♡*
 
